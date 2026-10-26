@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f1f5f9;
+  font-family: "Segoe UI", Inter, system-ui, -apple-system, sans-serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-shell-bg {
+  padding: 40px;
+}
+
+.open-btn {
+  background: #0b1220;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.debug-output {
+  margin-top: 20px;
+  background: #0b1220;
+  color: #a7f3d0;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 600px;
+  overflow-x: auto;
+  font-size: 12px;
+}
